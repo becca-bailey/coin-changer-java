@@ -1,17 +1,15 @@
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
 public class CoinChangerTest {
 
-    private static ArrayList<Integer> expectedChange(int... coins) {
-        ArrayList<Integer> change = new ArrayList<Integer>();
-        for (int coin : coins) {
-            change.add(coin);
-        }
-        return change;
+    List<Integer> expectedChange(Integer... coins) {
+        return new ArrayList<Integer>(Arrays.asList(coins));
     }
 
     @Test
