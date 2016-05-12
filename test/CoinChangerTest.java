@@ -34,4 +34,9 @@ public class CoinChangerTest {
         assertEquals(expectedChange(5), CoinChanger.makeChange(5));
     }
 
+    @Test
+    public void returns1Dime1Penny() {
+        assertEquals(expectedChange(5,1), CoinChanger.makeChange(6));
+    }
+
 }
