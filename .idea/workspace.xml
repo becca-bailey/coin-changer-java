@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b740fc19-2e14-4343-8e50-5dfbfa5ee654" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CoinChangerTest.java" afterPath="$PROJECT_DIR$/test/CoinChangerTest.java" />
     </list>
     <ignored path="CoinChanger.iws" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CoinChanger.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoinChanger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CoinChanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#215#224#0" expanded="true" />
@@ -37,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoinChangerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoinChangerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/CoinChangerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="484">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#258#0" expanded="true" />
@@ -51,10 +52,12 @@
                 <element signature="e#608#609#0" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
                 <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,8 +93,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CoinChanger.java" />
         <option value="$PROJECT_DIR$/test/CoinChangerTest.java" />
+        <option value="$PROJECT_DIR$/src/CoinChanger.java" />
       </list>
     </option>
   </component>
@@ -475,15 +478,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoinChangerTest - 2016.05.12 at 11h 46m 11s.xml">
-      <configuration name="CoinChangerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoinChangerTest - 2016.05.12 at 12h 01m 53s.xml">
-      <configuration name="CoinChangerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoinChangerTest - 2016.05.12 at 12h 02m 13s.xml">
-      <configuration name="CoinChangerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CoinChangerTest - 2016.05.12 at 12h 05m 30s.xml">
       <configuration name="CoinChangerTest" configurationId="JUnit" />
     </history-entry>
@@ -503,6 +497,15 @@
       <configuration name="CoinChangerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CoinChangerTest - 2016.05.12 at 12h 38m 10s.xml">
+      <configuration name="CoinChangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinChangerTest - 2016.05.12 at 12h 43m 05s.xml">
+      <configuration name="CoinChangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinChangerTest - 2016.05.12 at 12h 44m 16s.xml">
+      <configuration name="CoinChangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinChangerTest - 2016.05.12 at 12h 45m 19s.xml">
       <configuration name="CoinChangerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -556,21 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoinChanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#215#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/CoinChangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="484">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#249#258#0" expanded="true" />
@@ -580,10 +572,23 @@
             <element signature="e#608#609#0" expanded="true" />
             <element signature="e#655#656#0" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoinChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#224#0" expanded="true" />
           </folding>
         </state>
       </provider>

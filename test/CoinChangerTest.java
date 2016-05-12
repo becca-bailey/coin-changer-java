@@ -30,13 +30,18 @@ public class CoinChangerTest {
     }
 
     @Test
-    public void returns1Dime() {
+    public void returns1Nickel() {
         assertEquals(expectedChange(5), CoinChanger.makeChange(5));
     }
 
     @Test
-    public void returns1Dime1Penny() {
+    public void returns1Nickel1Penny() {
         assertEquals(expectedChange(5,1), CoinChanger.makeChange(6));
+    }
+
+    @Test
+    public void returns1Dime() {
+        assertEquals(expectedChange(10), CoinChanger.makeChange(10));
     }
 
 }
