@@ -44,4 +44,9 @@ public class CoinChangerTest {
         assertEquals(expectedChange(10), CoinChanger.makeChange(10));
     }
 
+    @Test
+    public void returns1Quarter() {
+        assertEquals(expectedChange(25), CoinChanger.makeChange(25));
+    }
+
 }

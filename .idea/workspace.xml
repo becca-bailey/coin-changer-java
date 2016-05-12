@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b740fc19-2e14-4343-8e50-5dfbfa5ee654" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoinChanger.java" afterPath="$PROJECT_DIR$/src/CoinChanger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CoinChangerTest.java" afterPath="$PROJECT_DIR$/test/CoinChangerTest.java" />
     </list>
     <ignored path="CoinChanger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CoinChanger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CoinChanger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoinChanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#183#192#0" expanded="true" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoinChangerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CoinChangerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/CoinChangerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+            <state relative-caret-position="439">
+              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#258#0" expanded="true" />
@@ -58,6 +58,8 @@
                 <element signature="e#979#980#0" expanded="true" />
                 <element signature="e#1023#1024#0" expanded="true" />
                 <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +95,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/CoinChangerTest.java" />
         <option value="$PROJECT_DIR$/src/CoinChanger.java" />
+        <option value="$PROJECT_DIR$/test/CoinChangerTest.java" />
       </list>
     </option>
   </component>
@@ -478,9 +480,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoinChangerTest - 2016.05.12 at 12h 32m 40s.xml">
-      <configuration name="CoinChangerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CoinChangerTest - 2016.05.12 at 12h 37m 48s.xml">
       <configuration name="CoinChangerTest" configurationId="JUnit" />
     </history-entry>
@@ -506,6 +505,9 @@
       <configuration name="CoinChangerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CoinChangerTest - 2016.05.12 at 13h 04m 40s.xml">
+      <configuration name="CoinChangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinChangerTest - 2016.05.12 at 13h 05m 59s.xml">
       <configuration name="CoinChangerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -559,10 +561,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoinChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#192#0" expanded="true" />
+            <element signature="e#376#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/CoinChangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+        <state relative-caret-position="439">
+          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#249#258#0" expanded="true" />
@@ -578,18 +592,8 @@
             <element signature="e#979#980#0" expanded="true" />
             <element signature="e#1023#1024#0" expanded="true" />
             <element signature="e#1099#1100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoinChanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#183#192#0" expanded="true" />
-            <element signature="e#376#385#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
           </folding>
         </state>
       </provider>
