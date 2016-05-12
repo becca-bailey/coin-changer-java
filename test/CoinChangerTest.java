@@ -24,4 +24,9 @@ public class CoinChangerTest {
         assertEquals(expectedChange(1), CoinChanger.makeChange(1));
     }
 
+    @Test
+    public void returns2Pennies() {
+        assertEquals(expectedChange(1,1), CoinChanger.makeChange(2));
+    }
+
 }
