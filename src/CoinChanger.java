@@ -1,25 +1,26 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class CoinChanger {
 
+    static List<Integer> coins = new ArrayList<Integer>();
+
     public static ArrayList<Integer> makeChange(int cents) {
+
+        coins.add(10);
+        coins.add(5);
+        coins.add(1);
+
         ArrayList<Integer> change = new ArrayList<Integer>();
 
-        while (cents >= 10) {
-            change.add(10);
-            cents -= 10;
-        }
+        for (int coin : coins) {
 
-        while (cents >= 5) {
-            change.add(5);
-            cents -= 5;
-        }
-
-        while (cents > 0) {
-            change.add(1);
-            cents -= 1;
+            while (cents >= coin) {
+                change.add(coin);
+                cents -= coin;
+            }
         }
         return change;
     }
