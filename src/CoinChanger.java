@@ -9,6 +9,7 @@ public class CoinChanger {
 
     public static ArrayList<Integer> makeChange(int cents) {
 
+        coins.add(25);
         coins.add(10);
         coins.add(5);
         coins.add(1);
