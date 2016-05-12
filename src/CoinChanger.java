@@ -4,5 +4,10 @@ import java.util.List;
 
 public class CoinChanger {
 
+    public static ArrayList<Integer> makeChange(int cents) {
+        ArrayList<Integer> change = new ArrayList<Integer>();
+        return change;
+    }
+
 }
 
