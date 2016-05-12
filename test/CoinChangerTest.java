@@ -29,4 +29,9 @@ public class CoinChangerTest {
         assertEquals(expectedChange(1,1), CoinChanger.makeChange(2));
     }
 
+    @Test
+    public void returns1Dime() {
+        assertEquals(expectedChange(5), CoinChanger.makeChange(5));
+    }
+
 }
