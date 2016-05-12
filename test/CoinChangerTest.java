@@ -49,4 +49,9 @@ public class CoinChangerTest {
         assertEquals(expectedChange(25), CoinChanger.makeChange(25));
     }
 
+    @Test
+    public void returnsChangeFor99Cents() {
+        assertEquals(expectedChange(25,25,25,10,10,1,1,1,1), CoinChanger.makeChange(99));
+    }
+
 }
